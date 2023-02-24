@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+:root{
+    --pale-blue:hsl(225, 100%, 94%);
+    --very-pale-blue:hsl(225, 100%, 98%);
+    --bright-blue:hsl(245, 75%, 52%);
+    --desaturated-blue:hsl(224, 23%, 55%);
+    --dark-blue:hsl(223, 47%, 23%);
+}
+body{
+    background-image: url("./images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-color: var(--pale-blue);
+    font-family: 'Red hat display';
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.card-container{
+    
+    background-color: white;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 5vh;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 5px 10px 10px var(--pale-blue);
+    width: 330px;
+    height: 550px;
+}
+.top-image img{
+   max-width: 370px;
+   border-radius: 15px 15px 0px 0px ;
+   margin-bottom: 10px;
+}
+.text{
+    text-align: center;
+}
+
+.text h2{
+    margin-top:10px;
+    margin-bottom: 0px;
+    color: var(--dark-blue);
+    font-size: 22px;
+}
+.text p{
+    color: var(--desaturated-blue);
+    text-align: center;
+    padding: 15px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+.plan-btn{
+    box-sizing: border-box;
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    background-color: var(--very-pale-blue);
+    border-radius: 8px;
+    margin-top: 5px;
+    height: 60px;
+    margin-bottom: 35px;
+
+}
+
+.plan-btn button{
+    background-color: transparent;
+    border:none;
+    font-family: inherit;
+    text-decoration: underline;
+    cursor: pointer;
+    color: var(--bright-blue);
+    font-weight: 700;
+    padding-right:20px;
+}
+.plan-btn  img{
+    box-sizing: inherit;
+    padding:10px;
+    width: 40px;
+    height: 40px;
+}
+.plan-box-left{
+    display: flex;
+    align-items: center;
+    
+}
+.plan-box-left h4{
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+.plan-box-left p{
+    font-size: 15px;
+    margin-top: 0px;
+    font-family: inherit;
+    color: var(--desaturated-blue);
+    font-size: 14px;
+}
+
+.btn{
+    display: flex;
+    flex-direction: column;
+    
+}
+.btn button{
+    border: none;
+    font-family: inherit;
+}
+.primary{
+    font-size: 15px;
+    color: white;
+    background-color: var(--bright-blue);
+    width:300px;
+    height: 40px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 10px 10px var(--pale-blue);
+    cursor: pointer;
+}
+.secondary{
+    margin-top: 10px;
+    font-family: inherit;
+    font-size:13px;
+    font-weight: 700;
+    color: var(--desaturated-blue);
+    background-color: transparent;
+    cursor: pointer;
+}
